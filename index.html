@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Champion Tracker</title>
+</head>
+<body>
+    <div id="container">
+        <div id="addui">
+            <form id="new-champion">
+                <label for="champion">Champion Name:</label>
+                <input type="text" id="champion">
+                <label for="kills">Amount of Kills:</label>
+                <input type="text" id="kills">
+                <label for="wins">Wins:</label>
+                <input type="text" id="wins">
+                <label for="losses">Losses:</label>
+                <input type="text" id="losses">
+                <input type="submit" id="submit-info" value="submit">
+            </form>
+        </div>
+        <nav id="nav-bar">
+            <div id="nav-title">
+                <img src="assets\main-logo.png" alt="Website Logo" width="50px" height="50px">
+                <h1>League Tracker</h1>
+            </div>
+            <div id="nav-buttons">
+                <button id="addchampion" onclick="newChampion()">Add Champion</button>
+                <button id="delchampion">Delete Champion</button>
+                <button id="login">Login</button>
+            </div>
+        </nav>
+        <div id="workspace">
+            <div class="champion-card">
+                <h2 class="champion-name">Yone</h2>
+                <div class="champion-kills">Kills: 82</div>
+                <div class="champion-wl">W: 100 L: 0</div>
+                <button id="champion-delete">Delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
