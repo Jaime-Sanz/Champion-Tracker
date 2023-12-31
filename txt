@@ -1,0 +1,47 @@
+Todays To do List:
+
+1ST: Create a card then append every needed div or image
+2ND: Write logic to check which champion image to use for background
+3RD: Make sure program runs well
+4th: Setup Github so that it is well put together
+5th: Move onto next project
+
+       championBackground = myLibrary[i].name;
+        switch(championBackground){
+            case "Aurelion Sol":
+                championBackground = "AurelionSol";
+                break;
+            case "Cho gath":
+                championBackground = "Chogath";
+                break;
+            case "Dr Mundo":
+                championBackground = "DrMundo";
+                break;
+            case "Jarvan IV":
+                championBackground = "JarvanIV";
+                break;
+            case "Kog Maw":
+                championBackground = "Kog Maw";
+                break;
+            case "Master Yi":
+                championBackground = "MasterYi";
+                break;
+            case "Miss Fortune":
+                championBackground = "MissFortune";
+                break;
+            case "Wukong":
+                championBackground = "MonkeyKing";
+                break;
+            case "Tahm Kench":
+                championBackground = "TahmKench";
+                break;
+            case "Twisted Fate":
+                championBackground = "TwistedFate";
+            case "Xin Zhao":
+                championBackground = "XinZhao";
+                break;
+            default:
+                break;
+        }
+
+        championCard.style.backgroundImage = `url(assets/splash/${championBackground}_0.jpg)`;

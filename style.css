@@ -95,11 +95,11 @@ label, input {
     border-top: 1px solid #C89B3C;
 }
 
-.champion-wl {
+.champion-losses {
     margin-bottom: 5%;
     border-bottom: 1px solid #C89B3C;
 }
-.champion-name, .champion-kills, .champion-wl {
+.champion-name, .champion-kills, .champion-wins, .champion-losses {
     background-color: rgba(0, 0, 0, 0.5);
     border-right: 1px solid #C89B3C;
     border-left: 1px solid #C89B3C;
@@ -107,7 +107,7 @@ label, input {
     margin-left: 5%;
 }
 
-#champion-delete {
+.champion-delete {
     width: 60%;
     align-self: center;
 }

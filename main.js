@@ -19,7 +19,7 @@ function addChampionToLibrary() {
 }
 
 function championDataToScreen() {
-    
+    console.log(myLibrary);
 }
 
 //function that toggles champion add pop-up visibility
@@ -35,6 +35,6 @@ const newChampion = () => {
 }
 
 //event listener that listens for submit from form to then add local data to screen
-document.getElementById("new-champion").addEventListener("submit", function(){
+document.getElementById("new-champion").addEventListener("submit", function(event){
     event.preventDefault();
     addChampionToLibrary(); });;
