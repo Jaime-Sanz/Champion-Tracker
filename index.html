@@ -12,14 +12,15 @@
         <div id="addui">
             <form id="new-champion">
                 <label for="champion">Champion Name:</label>
-                <input type="text" id="champion" placeholder="No Spaces">
+                <input type="text" id="champion" placeholder="ex. Kog Maw" pattern="[a-z A-Z]+" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required>
                 <label for="kills">Amount of Kills:</label>
-                <input type="text" id="kills">
+                <input type="number" id="kills" min="0" max="9999999999" placeholder="0" required>
                 <label for="wins">Wins:</label>
-                <input type="text" id="wins">
+                <input type="number" id="wins" min="0" max="9999999999" placeholder="0" required>
                 <label for="losses">Losses:</label>
-                <input type="text" id="losses">
+                <input type="number" id="losses" min="0" max="9999999999" placeholder="0" required>
                 <input type="submit" id="submit-info" value="submit">
+                <button id="exitbtn" onclick="newChampion()">Exit</button>
             </form>
         </div>
         <nav id="nav-bar">
@@ -29,18 +30,10 @@
             </div>
             <div id="nav-buttons">
                 <button id="addchampion" onclick="newChampion()">Add Champion</button>
-                <button id="delchampion">Delete Champion</button>
                 <button id="login">Login</button>
             </div>
         </nav>
         <div id="workspace">
-            <div class="champion-card">
-                <h2 class="champion-name">Yone</h2>
-                <div class="champion-kills">Kills: 82</div>
-                <div class="champion-wins">W: 100</div>
-                <div class="champion-losses">L: 0</div>
-                <button class="champion-delete" onclick="">Delete</button>
-            </div>
         </div>
     </div>
 </body>
