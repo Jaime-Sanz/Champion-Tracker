@@ -35,4 +35,4 @@ For those who would like to run the application and/or edit its source code on t
 # Contributing
 Feel free to submit an issue should a bug be found using the application.
 # License
-
+[MIT License](https://github.com/Jaime-Sanz/Champion-Tracker/blob/main/LICENSE)
