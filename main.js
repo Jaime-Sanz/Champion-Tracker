@@ -117,6 +117,10 @@ const newChampion = () => {
     }
 }
 
+function gitHubOpen(){
+    window.open("https://github.com/Jaime-Sanz/Champion-Tracker");
+}
+
 //event listener that listens for submit from form to then add local data to screen
 document.getElementById("new-champion").addEventListener("submit", function(event){
     event.preventDefault();
