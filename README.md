@@ -36,3 +36,7 @@ For those who would like to run the application and/or edit its source code on t
 Feel free to submit an issue should a bug be found using the application.
 # License
 [MIT License](https://github.com/Jaime-Sanz/Champion-Tracker/blob/main/LICENSE)
+# Contact Info
+> Send a message by clicking on the icon!
+> 
+> [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/jaime-sanchez-a95874245/)
